@@ -1,0 +1,222 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+div,p,input,button,form,span,a,ul,li{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgba(77,192,254,1);
+    background: -moz-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 70px;
+    color: #fff;
+    padding-bottom: 140px;
+}
+
+.desktop{
+    margin-top: 60px;
+}
+
+ .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .offer{
+    width: 580px;
+ }
+
+ .intro{
+    width: 390px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+ }
+
+p{
+    line-height: 1.6;
+}
+
+ .title{
+     font-size: 35px;
+ }
+ .title span{
+     font-size: 59px;
+ }
+
+ .btn{
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    width: 220px;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+ }
+
+.btn:hover{
+    background: #d7b738;
+    color: #000;
+}
+
+.section-title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.learn{
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.benefit-title{
+    font-size: 19px;
+}
+.benefit-text{
+    margin-top: 10px;
+    width: 289px;
+}
+.benefit{
+    width: 300px;
+    background: url('../ДЗ/img/1.png') no-repeat top center;
+    padding-top: 90px;
+    text-align: center;
+}
+.benefit-travel{
+    width: 270px;
+    background: url('../ДЗ/img/2.png') no-repeat top center;
+}
+.benefit-value{
+    background: url('../ДЗ/img/3.png') no-repeat top center;
+}
+
+.mail{
+    background: #ecf2f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.form{
+    padding-top: 60px;
+}
+
+.input{
+    width: 350px;
+    margin-bottom: 20px;
+    border: 1px solid #bbbbbb;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 28px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-form{
+    border: 0;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+
+}
+
+.credits{
+    font-size: 14px;
+    color: #e2e9ee;
+}
+
+.footer{
+    padding: 60px 0;
+    background: #164d7a;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        width: 	960px;
+    }
+}
+@media screen and (max-width:992px) {
+    .container{
+        width: 	720px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .offer{
+        width: auto;
+        margin-top: 50px;
+    }
+    .intro{
+        width: auto;
+    }
+    .desktop{
+        display: block;
+        width: 641px;
+        margin: 72px auto 0;
+    }
+    .benefits{
+        flex-direction: column;
+    }
+    .benefit{
+        width: auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .benefit-text{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        width: 	540px;
+    }
+    .desktop{
+        width: 540px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .container{
+        width: 	90%;
+    }
+    .desktop{
+        width: 320px;
+    }
+    .input{
+        width: 100%;
+    }
+    .btn-form{
+        width: 100%;
+    }
+}
+
